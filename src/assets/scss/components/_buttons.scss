@@ -1,0 +1,11 @@
+@import "~@/assets/scss/base/variables";
+@import '~@/assets/scss/base/mixin';
+.btn-theme {
+    @include btn-theme(color(primary-color), #fff);
+}
+.btn {
+    .spinner-border {
+        width: 18px;
+        height: 18px;
+    }
+}
